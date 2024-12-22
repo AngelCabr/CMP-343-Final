@@ -12,21 +12,14 @@ var submitAnswer = function() {
     if (val == "" ) {
       alert('please select one');
     }
-    if (val == "Yes") {
+    else if (val == "Yes") {
         alert('I thought it would be funny to leave this page blank to fit in with the question, My bad');
     }
-    if (val == "No") {
-        alert('Great!');
-    }
-    if (val == "Probably") {
+  //  else if (val == "No") {
+   //     alert('Great!');
+   // }
+    else {
         alert('Lets hope not! This was intentionally not styled to fit with the question');
     }
-    //} else if ( val == "Yes" ) {
-     // alert('I thought it would be funny to leave this page blank to fit in with the question, My bad');
-    //} else if( val == "No" ) {
-     // alert('Great!');
-    //} else {
-     //   alert('Lets hope not! This was intentionally not styled to fit with the question');
-    //}
-
+    
   };
